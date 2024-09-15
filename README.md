@@ -25,19 +25,25 @@ Before running the project, ensure you have the following dependencies installed
 
 ```bash
 pip install flask speechrecognition transformers torch
+```
 
-## **How to Run the Project**
+## **3. How to Run the Project**
 
-### **1. Setup**
+### **3.1 Setup**
 
 1. **Install dependencies**:  
    First, install the necessary Python libraries by running the following command:
    ```bash
    pip install flask speechrecognition transformers torch
-### **2. Running the Flask Application**
+   ```
+
+### **3.2 Running the Flask Application**
 
 1. Navigate to the project directory in your terminal.
 
 2. Start the Flask application by running the following command:
    ```bash
    python app.py
+   ```
+3.Open your browser and go to:
+    http://127.0.0.1:5000/
