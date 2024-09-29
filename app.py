@@ -7,7 +7,7 @@ class FlaskApp:
         self.app = Flask(__name__)
         self.detector = SpeechAbuseDetector()
 
-        # Set up Flask routes2
+        # Set up Flask routes22
         self.setup_routes()
 
     def setup_routes(self):
